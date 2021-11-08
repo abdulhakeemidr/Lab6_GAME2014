@@ -846,7 +846,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 368463931}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b484826efe610c549a9eb580989daf86, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -948,8 +948,9 @@ GameObject:
   - component: {fileID: 2135714320}
   - component: {fileID: 2135714322}
   - component: {fileID: 2135714323}
+  - component: {fileID: 2135714324}
   m_Layer: 0
-  m_Name: player
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1058,3 +1059,17 @@ CapsuleCollider2D:
   m_Offset: {x: -0.011223733, y: -0.39283407}
   m_Size: {x: 1.00746, y: 1.2768319}
   m_Direction: 0
+--- !u!114 &2135714324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135714319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da746abc534c1cf47b6fc7de443f6864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalForce: 0
+  verticalForce: 0
